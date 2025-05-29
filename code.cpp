@@ -9,8 +9,6 @@ LiquidCrystal_I2C lcd(LCDADDR, LCDColunas, LCDFileiras);
 #define dhtTipo DHT22
 DHT dht(dhtPin, dhtTipo);
 
-#define buzzPin 13
-
 float umidade;
 float temp;
 
@@ -20,14 +18,8 @@ void setup () {
     lcd.begin(16,2);
     lcd.init();
     lcd.backlight();
-    pinMode(buzzPin, OUTPUT);
-    for(int i = 7; i >= 5; i--){
-      pinMode(i, OUTPUT);
-    }
 }
 void loop () {
-  digitalWrite(buzzPin, HIGH);
-  digitalWrite(5, HIGH);
   umidade = dht.readHumidity();
   temp = dht.readTemperature();
 
