@@ -33,3 +33,8 @@ Novamente, apertar o botão de rodar, e ver que nessa simulação a depender do 
 - Projeto 2 - Nivel de água: [Clique aqui](https://wokwi.com/projects/432253035508079617)
 
 - Video: [Clique aqui](https://youtu.be/TfUBKiSIXFI)
+
+# Integrantes: 
+- Enzo Fatobene
+- Leonardo Borges
+- Paulo Henrique Barbosa
